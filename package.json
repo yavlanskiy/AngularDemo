@@ -1,0 +1,14 @@
+{
+  "name": "protractor",
+  "scripts": {
+    "dell-output":"rmdir /s /q output_js",
+    "tsc":"tsc",
+    "test": "protractor output_js/config.js"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "@types/jasmine": "^3.3.12",
+    "protractor": "^5.4.2",
+    "typescript": "^3.4.1"
+  }
+}
